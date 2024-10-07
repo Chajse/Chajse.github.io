@@ -13,7 +13,7 @@
 <header
     class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border-b border-solid " +
         (y > 0
-            ? " py-4 bg-slate-950 border-violet-950"
+            ? " py-4 bg-stone-950 border-red-950"
             : " py-6 bg-transparent border-transparent")}
 >
     <h1 class="font-medium">
@@ -24,7 +24,7 @@
         {#each tabs as tab, index}
             <a
                 href={tab.link}
-                class={"duration-200 " + (tab.name === "Blog" ? "hover:text-red-800 !important" : "hover:text-violet-400")}
+                class={"duration-200 " + (tab.name === "Blog" ? "hover:text-red-800 !important" : "hover:text-green-950")}
                 target={index === 2 ? "_blank" : ""}
             >
                 <p class="duration-200">{tab.name}</p>

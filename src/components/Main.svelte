@@ -54,12 +54,12 @@
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-violet-400">Alloizeus John</span>
+                Hi! I'm <span class="poppins text-red-700">Alloizeus John</span>
                 <br />UI/UX
-                <span class="poppins text-violet-400">Designer</span>
+                <span class="poppins text-red-700">Designer</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400 font-bold">favorite tech</span> includes Adobe Softwares, Figma, and Canva.
+                My <span class="text-red-700 font-bold">favorite tech</span> includes Adobe Softwares, Figma, and Canva.
                 I also like the JavaScript (Svelte, React, and Node) and Python programming language.
             </p>
         </div>
@@ -76,10 +76,10 @@
     <section class="py-20 lg:py-32 flex flex-col gap-24" id="projects">
         <div class="flex flex-col gap-2 text-center">
             <h6 class="text-large sm:text-xl md:text-2xl">
-                A few of my creative endeavors.
+                Explore My Creative Journey:
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                Curious to <span class="poppins text-violet-400">see</span> my work?
+                A Showcase of <span class="poppins text-red-700">Innovative</span> projects
             </h3>
         </div>
 
@@ -87,7 +87,7 @@
             <Step step={steps[0]}>
                 <p>
                     Weather Bloom is a weather application that uses the OpenWeatherMap API to <strong
-                        class="text-violet-400"
+                        class="text-red-700"
                         >display the current weather and forecast for any location in the world</strong
                     >  making it an essential tool for anyone wanting to stay informed about the weather.
                 </p>
@@ -96,22 +96,22 @@
             <Step step={steps[1]}>
                 <p>
                     HCI Simple Calculator is a <strong
-                        class="text-violet-400">JavaScript</strong
+                        class="text-red-700">JavaScript</strong
                     >
-                    <strong class="text-violet-400">Simple Calculator</strong
+                    <strong class="text-red-700">Simple Calculator</strong
                     >
-                    with <strong class="text-violet-400">Animated background</strong> that allows users to perform basic arithmetic operations.
+                    with <strong class="text-red-700">Animated background</strong> that allows users to perform basic arithmetic operations.
                 </p>
             </Step>
 
             <Step step={steps[2]}>
                 <p>
-                    My other works can be seen in a Google Drive folder, showcasing some of <strong class="text-violet-400"
+                    My other works can be seen in a Google Drive folder, showcasing some of <strong class="text-red-700"
                         >my Compiled works</strong
                     >
                     throughout my journey as a student leader | designer | computer science student.
                     Each piece reflects   
-                    <strong class="text-violet-400">my growth and experiences</strong>, in various projects, and collaborations. 
+                    <strong class="text-red-700">my growth and experiences</strong>, in various projects, and collaborations. 
                     Feel free to explore the collection, which includes a range of designs, coding projects, 
                     and leadership initiatives that highlight my creativity and commitment to excellence.
                 </p>
@@ -124,13 +124,13 @@
     >
        
         <div
-            class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+            class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-green-950 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-green-950 py-4"
         >
             <h6 class="text-large sm:text-xl md:text-2xl">
                 Want to know more?
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                A bit <span class="poppins text-violet-400">about</span> me.
+                A bit <span class="poppins text-red-700">about</span> me.
             </h3>
         </div>
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
@@ -154,71 +154,5 @@
                 </div>
             {/each}
         </div>
-        <!--<h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-            The <span class="text-violet-400">Complete</span> Package
-        </h5>
-        <div
-            class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
-        >
-            <table class="bg-white text-slate-700 rounded text-center">
-                <thead class={"border-b border-solid border-slate-200  "}>
-                    <tr class="">
-                        <th />
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
-                        <th
-                            class="bg-violet-700 text-white whitespace-nowrap p-4 px-8"
-                            >Me</th
-                        >
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="border-b border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Dedication</td
-                        >
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                    <tr class="border-b border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Critical Thought</td
-                        >
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                    <tr>
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Interpersonal Skills</td
-                        >
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                    <tr class="border-t border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Progamming Ability</td
-                        >
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
-            <p>Scroll to see more &rarr;</p>
-        </div>-->
     </section>
 </main>
