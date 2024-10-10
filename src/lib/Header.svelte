@@ -1,6 +1,8 @@
 <script>
     export let y;
 
+    export let innerHeight;
+
     export let tabs = [
         { name: "Projects ", link: "#projects" },
         { name: "About me", link: "#about" },
